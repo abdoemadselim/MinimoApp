@@ -23,7 +23,7 @@ const HeroSection = () => {
       <div className="mb-6">
          <Link to="https://abdoemadselim.gumroad.com/l/bucey">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-3 rounded-lg font-semibold">
-            Get now with just $5
+            Get now for free
         </Button>
         </Link>
       </div>
