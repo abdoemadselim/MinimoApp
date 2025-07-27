@@ -1,5 +1,6 @@
-import minimoLogo from "@/assets/minimo-logo.png";
+import minimoLogo from "@/assets/logo.jpg";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,9 +9,11 @@ const Header = () => {
         <img src={minimoLogo} alt="Minimo" className="w-12 h-12 rounded-lg" />
         <span className="text-xl font-semibold text-foreground">Minimo</span>
       </div>
-      <Button variant="outline" className="border-muted-foreground text-muted-foreground hover:bg-muted">
-        Get Minimo
-      </Button>
+      <Link to="https://abdoemadselim.gumroad.com/l/bucey">
+        <Button variant="outline" className="border-muted-foreground text-muted-foreground">
+          Get Minimo
+        </Button>
+      </Link>
     </header>
   );
 };

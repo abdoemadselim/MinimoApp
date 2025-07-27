@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -20,9 +21,11 @@ const HeroSection = () => {
       </p>
       
       <div className="mb-6">
-        <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-3 rounded-lg font-semibold">
-          Get now with just $5
+         <Link to="https://abdoemadselim.gumroad.com/l/bucey">
+          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-3 rounded-lg font-semibold">
+            Get now with just $5
         </Button>
+        </Link>
       </div>
       
       <div className="flex items-center justify-center gap-8 text-sm text-hero-highlight">

@@ -3,11 +3,11 @@ const Footer = () => {
     <footer className="text-center py-12 px-6">
       <div className="mb-4">
         <p className="text-muted-foreground">
-          Contact me: <span className="text-hero-highlight">abdoemadselim17@gmail.com</span>
+          Contact me: <a href="mailto:abdoemadselim11@gmail.com" target="_blank" className="text-hero-highlight">abdoemadselim11@gmail.com</a>
         </p>
       </div>
       <p className="text-sm text-muted-foreground">
-        © 2025 Minimo. All rights reserved.
+        © 2025 MinimoApp. All rights reserved.
       </p>
     </footer>
   );

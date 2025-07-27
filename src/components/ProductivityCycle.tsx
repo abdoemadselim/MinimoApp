@@ -1,9 +1,9 @@
 const ProductivityCycle = () => {
   const cycleSteps = [
     { title: "Start your session", position: "top" },
-    { title: "Be more productive", position: "left", accent: true },
-    { title: "Take a break", position: "right" },
-    { title: "Get insights", position: "bottom" }
+    { title: "Take a break", position: "left" },
+    { title: "Get insights", position: "bottom" },
+    { title: "Be more productive", position: "right", accent: true },
   ];
 
   return (
