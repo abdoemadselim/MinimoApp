@@ -52,6 +52,9 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'hero-highlight': 'hsl(var(--hero-highlight))',
+				'video-border': 'hsl(var(--video-border))',
+				'circle-accent': 'hsl(var(--circle-accent))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
