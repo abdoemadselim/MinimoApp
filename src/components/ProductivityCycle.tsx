@@ -40,7 +40,7 @@ const ProductivityCycle = () => {
           return (
             <div
               key={step.title}
-              className={`absolute hover:bg-primary/90 cursor-pointer w-24 h-24 rounded-full flex items-center justify-center text-sm font-medium text-center p-2 transform -translate-x-1/2 -translate-y-1/2 ${
+              className={`absolute hover:bg-primary/90 cursor-pointer w-[120px] h-[120px] rounded-full flex items-center justify-center text-lg font-medium text-center p-2 transform -translate-x-1/2 -translate-y-1/2 ${
                 step.accent
                   ? "bg-circle-accent text-white"
                   : "bg-card border border-border text-foreground"
