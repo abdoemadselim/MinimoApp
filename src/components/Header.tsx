@@ -1,4 +1,4 @@
-import minimoLogo from "@/assets/logo.jpg";
+import minimoLogo from "@/assets/logo.webp";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
