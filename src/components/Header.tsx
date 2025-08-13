@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between p-6 max-w-6xl mx-auto">
       <div className="flex items-center gap-3">
-        <img src={minimoLogo} alt="Minimo" className="w-12 h-12 rounded-lg" />
+        <img src={minimoLogo} alt="Minimo" className="w-12 h-12 rounded-lg" fetchPriority="high"/>
         <span className="text-xl font-semibold text-foreground">Minimo</span>
       </div>
       <Link to="https://abdoemadselim.gumroad.com/l/bucey">
