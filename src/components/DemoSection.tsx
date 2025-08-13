@@ -1,5 +1,5 @@
 import demo from "@/assets/app.mp4";
-import thumbnail from "@/assets/logo.webp"
+import thumbnail from "@/assets/logo.png"
 
 const DemoSection = () => {
   return (
